@@ -8,7 +8,7 @@ def check_unique_char(word):
     for i in range(length):
         for j in range(i+1, length):  
             if char_list[i] == char_list[j]:
-                print(f"The letter {char_list[i]} repeats")
+                print(f"The letter '{char_list[i]}' repeats")
                 return  
 
     print("all letters are unique")
